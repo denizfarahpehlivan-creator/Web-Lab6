@@ -3,6 +3,7 @@ import { fetchPosts } from "./api/postsApi.js";
 import { initialState, postsReducer } from "./reducer/postsReducer.js";
 import PostList from "./components/PostList.jsx";
 import FilterForm from "./components/FilterForm.jsx";
+import "./App.css";
 
 export default function App() {
   const [state, dispatch] = useReducer(postsReducer, initialState);
