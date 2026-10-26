@@ -6,8 +6,8 @@ body {
   margin: 0;
   min-width: 320px;
   font-family: Arial, sans-serif;
-  background-color: #f4f6f8;
-  color: #222;
+  background-color: #64b8de;
+  color: #040556;
   line-height: 1.6;
 }
 
@@ -38,21 +38,22 @@ label {
 input {
   width: 100%;
   padding: 12px;
-  border: 1px solid #aaa;
-  border-radius: 6px;
+  background: #b1daed;
+  border: 1px solid #01070b;
+  border-radius: 10px;
   font: inherit;
 }
 
 input:focus {
-  outline: 2px solid #2563eb;
+  outline: 2px solid #0e224e;
   outline-offset: 2px;
 }
 
 article {
   margin-bottom: 16px;
   padding: 20px;
-  background-color: white;
-  border: 1px solid #ddd;
+  background-color: rgb(168, 234, 247);
+  border: 1px solid #1b0f0f;
   border-radius: 8px;
   overflow-wrap: anywhere;
 }
@@ -67,5 +68,5 @@ article p {
 }
 
 [role="alert"] {
-  color: #b91c1c;
+  color: #722410;
 }
